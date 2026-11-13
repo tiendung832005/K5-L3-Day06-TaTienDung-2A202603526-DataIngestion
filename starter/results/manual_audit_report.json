@@ -1,0 +1,1044 @@
+{
+  "annotator": "Tạ Tiến Dũng (tác giả tự chấm; lưu ý nguy cơ thiên lệch xác nhận do người chấm cũng là người thiết kế corpus/benchmark)",
+  "coherence_audit_10_pages": [
+    {
+      "page_id": "cloud_handbook_v2_p003",
+      "strategy": "A",
+      "chunk_id": "cloud_handbook_v2_p003_fix_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #01 (Physical Page 3) [SECURITY] Module 01 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q01): Access tokens expire strictly after 45 minutes, except for automated batch w",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #01 (Physical Page 3) [SECURITY] Module 01 establishes",
+      "coherence_score": 1,
+      "reason": "Giữ được tiêu đề đầu trang nhưng bị cắt ngang giữa câu cuối cùng ở ngưỡng 500 ký tự, làm đứt mạch ý/điều kiện."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p003",
+      "strategy": "B",
+      "chunk_id": "cloud_handbook_v2_p003_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #01 (Physical Page 3) [SECURITY] Module 01 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q01): Access tokens expire strictly after 45 minutes, except for automated batch workers which may request a 120-minute lease.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #01 (Physical Page 3) [SECURITY] Module 01 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p003",
+      "strategy": "C",
+      "chunk_id": "cloud_handbook_v2_p003_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #01 (Physical Page 3) [SECURITY] Module 01 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q01): Access tokens expire strictly after 45 minutes, except for automated batch workers which may request a 120-minute lease.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #01 (Physical Page 3) [SECURITY] Module 01 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p004",
+      "strategy": "A",
+      "chunk_id": "cloud_handbook_v2_p004_fix_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #02 (Physical Page 4) [SECURITY] Module 02 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q02): All master key material in the vault must undergo automatic cryptographic ro",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #02 (Physical Page 4) [SECURITY] Module 02 establishes",
+      "coherence_score": 1,
+      "reason": "Giữ được tiêu đề đầu trang nhưng bị cắt ngang giữa câu cuối cùng ở ngưỡng 500 ký tự, làm đứt mạch ý/điều kiện."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p004",
+      "strategy": "B",
+      "chunk_id": "cloud_handbook_v2_p004_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #02 (Physical Page 4) [SECURITY] Module 02 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q02): All master key material in the vault must undergo automatic cryptographic rotation every 90 calendar days.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #02 (Physical Page 4) [SECURITY] Module 02 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p004",
+      "strategy": "C",
+      "chunk_id": "cloud_handbook_v2_p004_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #02 (Physical Page 4) [SECURITY] Module 02 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q02): All master key material in the vault must undergo automatic cryptographic rotation every 90 calendar days.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #02 (Physical Page 4) [SECURITY] Module 02 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p005",
+      "strategy": "A",
+      "chunk_id": "cloud_handbook_v2_p005_fix_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #03 (Physical Page 5) [SECURITY] Module 03 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q03): Direct SSH root login is strictly prohibited on all bastion nodes unless bre",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #03 (Physical Page 5) [SECURITY] Module 03 establishes",
+      "coherence_score": 1,
+      "reason": "Giữ được tiêu đề đầu trang nhưng bị cắt ngang giữa câu cuối cùng ở ngưỡng 500 ký tự, làm đứt mạch ý/điều kiện."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p005",
+      "strategy": "B",
+      "chunk_id": "cloud_handbook_v2_p005_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #03 (Physical Page 5) [SECURITY] Module 03 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q03): Direct SSH root login is strictly prohibited on all bastion nodes unless break-glass emergency mode is activated by two security officers.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #03 (Physical Page 5) [SECURITY] Module 03 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p005",
+      "strategy": "C",
+      "chunk_id": "cloud_handbook_v2_p005_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #03 (Physical Page 5) [SECURITY] Module 03 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q03): Direct SSH root login is strictly prohibited on all bastion nodes unless break-glass emergency mode is activated by two security officers.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #03 (Physical Page 5) [SECURITY] Module 03 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p006",
+      "strategy": "A",
+      "chunk_id": "cloud_handbook_v2_p006_fix_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #04 (Physical Page 6) [SECURITY] Module 04 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q04): In the security gateway layer, the default request timeout threshold is conf",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #04 (Physical Page 6) [SECURITY] Module 04 establishes",
+      "coherence_score": 1,
+      "reason": "Giữ được tiêu đề đầu trang nhưng bị cắt ngang giữa câu cuối cùng ở ngưỡng 500 ký tự, làm đứt mạch ý/điều kiện."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p006",
+      "strategy": "B",
+      "chunk_id": "cloud_handbook_v2_p006_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #04 (Physical Page 6) [SECURITY] Module 04 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q04): In the security gateway layer, the default request timeout threshold is configured to 12 seconds per upstream call.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #04 (Physical Page 6) [SECURITY] Module 04 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p006",
+      "strategy": "C",
+      "chunk_id": "cloud_handbook_v2_p006_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #04 (Physical Page 6) [SECURITY] Module 04 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q04): In the security gateway layer, the default request timeout threshold is configured to 12 seconds per upstream call.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #04 (Physical Page 6) [SECURITY] Module 04 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p007",
+      "strategy": "A",
+      "chunk_id": "cloud_handbook_v2_p007_fix_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #05 (Physical Page 7) [SECURITY] Module 05 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q16): A developer account is locked for 30 minutes after 6 consecutive failed mult",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #05 (Physical Page 7) [SECURITY] Module 05 establishes",
+      "coherence_score": 1,
+      "reason": "Giữ được tiêu đề đầu trang nhưng bị cắt ngang giữa câu cuối cùng ở ngưỡng 500 ký tự, làm đứt mạch ý/điều kiện."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p007",
+      "strategy": "B",
+      "chunk_id": "cloud_handbook_v2_p007_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #05 (Physical Page 7) [SECURITY] Module 05 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q16): A developer account is locked for 30 minutes after 6 consecutive failed multi-factor authentication attempts.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #05 (Physical Page 7) [SECURITY] Module 05 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p007",
+      "strategy": "C",
+      "chunk_id": "cloud_handbook_v2_p007_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #05 (Physical Page 7) [SECURITY] Module 05 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q16): A developer account is locked for 30 minutes after 6 consecutive failed multi-factor authentication attempts.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #05 (Physical Page 7) [SECURITY] Module 05 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p008",
+      "strategy": "A",
+      "chunk_id": "cloud_handbook_v2_p008_fix_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #06 (Physical Page 8) [SECURITY] Module 06 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Standard Guideline 06: Services deployed within the security domain must export Prometheus metrics on po",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #06 (Physical Page 8) [SECURITY] Module 06 establishes",
+      "coherence_score": 1,
+      "reason": "Giữ được tiêu đề đầu trang nhưng bị cắt ngang giữa câu cuối cùng ở ngưỡng 500 ký tự, làm đứt mạch ý/điều kiện."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p008",
+      "strategy": "B",
+      "chunk_id": "cloud_handbook_v2_p008_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #06 (Physical Page 8) [SECURITY] Module 06 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Standard Guideline 06: Services deployed within the security domain must export Prometheus metrics on port 9090 every 15 seconds and maintain structured JSON logs with trace_id correlation.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #06 (Physical Page 8) [SECURITY] Module 06 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p008",
+      "strategy": "C",
+      "chunk_id": "cloud_handbook_v2_p008_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #06 (Physical Page 8) [SECURITY] Module 06 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Standard Guideline 06: Services deployed within the security domain must export Prometheus metrics on port 9090 every 15 seconds and maintain structured JSON logs with trace_id correlation.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #06 (Physical Page 8) [SECURITY] Module 06 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p009",
+      "strategy": "A",
+      "chunk_id": "cloud_handbook_v2_p009_fix_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #07 (Physical Page 9) [SECURITY] Module 07 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Standard Guideline 07: Services deployed within the security domain must export Prometheus metrics on po",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #07 (Physical Page 9) [SECURITY] Module 07 establishes",
+      "coherence_score": 1,
+      "reason": "Giữ được tiêu đề đầu trang nhưng bị cắt ngang giữa câu cuối cùng ở ngưỡng 500 ký tự, làm đứt mạch ý/điều kiện."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p009",
+      "strategy": "B",
+      "chunk_id": "cloud_handbook_v2_p009_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #07 (Physical Page 9) [SECURITY] Module 07 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Standard Guideline 07: Services deployed within the security domain must export Prometheus metrics on port 9090 every 15 seconds and maintain structured JSON logs with trace_id correlation.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #07 (Physical Page 9) [SECURITY] Module 07 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p009",
+      "strategy": "C",
+      "chunk_id": "cloud_handbook_v2_p009_par_000",
+      "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #07 (Physical Page 9) [SECURITY] Module 07 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Standard Guideline 07: Services deployed within the security domain must export Prometheus metrics on port 9090 every 15 seconds and maintain structured JSON logs with trace_id correlation.",
+      "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #07 (Physical Page 9) [SECURITY] Module 07 establishes",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p010",
+      "strategy": "A",
+      "chunk_id": "cloud_handbook_v2_p010_fix_000",
+      "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #08 (Physical Page 10) [ARCHITECTURE] Module 08 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q05): Messages published to the internal Kafka event bus must not exceed",
+      "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #08 (Physical Page 10) [ARCHITECTURE] Module 08 es",
+      "coherence_score": 1,
+      "reason": "Giữ được tiêu đề đầu trang nhưng bị cắt ngang giữa câu cuối cùng ở ngưỡng 500 ký tự, làm đứt mạch ý/điều kiện."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p010",
+      "strategy": "B",
+      "chunk_id": "cloud_handbook_v2_p010_par_000",
+      "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #08 (Physical Page 10) [ARCHITECTURE] Module 08 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q05): Messages published to the internal Kafka event bus must not exceed 4 megabytes after compression.",
+      "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #08 (Physical Page 10) [ARCHITECTURE] Module 08 es",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p010",
+      "strategy": "C",
+      "chunk_id": "cloud_handbook_v2_p010_par_000",
+      "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #08 (Physical Page 10) [ARCHITECTURE] Module 08 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q05): Messages published to the internal Kafka event bus must not exceed 4 megabytes after compression.",
+      "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #08 (Physical Page 10) [ARCHITECTURE] Module 08 es",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p011",
+      "strategy": "A",
+      "chunk_id": "cloud_handbook_v2_p011_fix_000",
+      "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #09 (Physical Page 11) [ARCHITECTURE] Module 09 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q06): Each primary PostgreSQL database shard is paired with 3 synchronous",
+      "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #09 (Physical Page 11) [ARCHITECTURE] Module 09 es",
+      "coherence_score": 1,
+      "reason": "Giữ được tiêu đề đầu trang nhưng bị cắt ngang giữa câu cuối cùng ở ngưỡng 500 ký tự, làm đứt mạch ý/điều kiện."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p011",
+      "strategy": "B",
+      "chunk_id": "cloud_handbook_v2_p011_par_000",
+      "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #09 (Physical Page 11) [ARCHITECTURE] Module 09 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q06): Each primary PostgreSQL database shard is paired with 3 synchronous and asynchronous read replicas across availability zones.",
+      "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #09 (Physical Page 11) [ARCHITECTURE] Module 09 es",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p011",
+      "strategy": "C",
+      "chunk_id": "cloud_handbook_v2_p011_par_000",
+      "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #09 (Physical Page 11) [ARCHITECTURE] Module 09 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q06): Each primary PostgreSQL database shard is paired with 3 synchronous and asynchronous read replicas across availability zones.",
+      "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #09 (Physical Page 11) [ARCHITECTURE] Module 09 es",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p012",
+      "strategy": "A",
+      "chunk_id": "cloud_handbook_v2_p012_fix_000",
+      "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #10 (Physical Page 12) [ARCHITECTURE] Module 10 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q07): The API gateway serves responses from Redis cache by default, excep",
+      "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #10 (Physical Page 12) [ARCHITECTURE] Module 10 es",
+      "coherence_score": 1,
+      "reason": "Giữ được tiêu đề đầu trang nhưng bị cắt ngang giữa câu cuối cùng ở ngưỡng 500 ký tự, làm đứt mạch ý/điều kiện."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p012",
+      "strategy": "B",
+      "chunk_id": "cloud_handbook_v2_p012_par_000",
+      "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #10 (Physical Page 12) [ARCHITECTURE] Module 10 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q07): The API gateway serves responses from Redis cache by default, except when the client header X-Bypass-Cache is signed by an internal service.",
+      "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #10 (Physical Page 12) [ARCHITECTURE] Module 10 es",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    },
+    {
+      "page_id": "cloud_handbook_v2_p012",
+      "strategy": "C",
+      "chunk_id": "cloud_handbook_v2_p012_par_000",
+      "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #10 (Physical Page 12) [ARCHITECTURE] Module 10 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q07): The API gateway serves responses from Redis cache by default, except when the client header X-Bypass-Cache is signed by an internal service.",
+      "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #10 (Physical Page 12) [ARCHITECTURE] Module 10 es",
+      "coherence_score": 2,
+      "reason": "Giữ trọn vẹn ranh giới đoạn văn và toàn bộ câu quy định kèm điều kiện, tự hiểu độc lập được."
+    }
+  ],
+  "metadata_audit_test_15_records": [
+    {
+      "strategy": "A",
+      "question_id": "Q16",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p032_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 32,
+      "section": "compliance",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q16",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p018_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 18,
+      "section": "deployment",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q16",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p007_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 7,
+      "section": "security",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q17",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p013_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 13,
+      "section": "architecture",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q17",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p011_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 11,
+      "section": "architecture",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q17",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p012_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 12,
+      "section": "architecture",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q18",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p020_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 20,
+      "section": "deployment",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q18",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p017_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 17,
+      "section": "deployment",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q18",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p006_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 6,
+      "section": "security",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q19",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p026_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 26,
+      "section": "operations",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": false
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q19",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p033_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 33,
+      "section": "compliance",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q19",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p027_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 27,
+      "section": "operations",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": false
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q20",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p027_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 27,
+      "section": "operations",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q20",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p006_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 6,
+      "section": "security",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": false
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q20",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p017_fix_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 17,
+      "section": "deployment",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": false
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q16",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p007_par_000",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 7,
+      "section": "security",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q16",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p030_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 30,
+      "section": "operations",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q16",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p028_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 28,
+      "section": "operations",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q17",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p013_par_000",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 13,
+      "section": "architecture",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q17",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p008_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 8,
+      "section": "security",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q17",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p009_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 9,
+      "section": "security",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q18",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p017_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 17,
+      "section": "deployment",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q18",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p017_par_000",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 17,
+      "section": "deployment",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q18",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p010_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 10,
+      "section": "architecture",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q19",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p033_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 33,
+      "section": "compliance",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q19",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p031_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 31,
+      "section": "compliance",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q19",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p032_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 32,
+      "section": "compliance",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q20",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p027_par_000",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 27,
+      "section": "operations",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q20",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p003_par_000",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 3,
+      "section": "security",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": false
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q20",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p006_par_000",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 6,
+      "section": "security",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": false
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q16",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p007_par_000",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 7,
+      "section": "security",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q16",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p030_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 30,
+      "section": "operations",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q16",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p028_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 28,
+      "section": "operations",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q17",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p013_par_000",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 13,
+      "section": "architecture",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q17",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p008_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 8,
+      "section": "security",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q17",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p009_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 9,
+      "section": "security",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q18",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p017_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 17,
+      "section": "deployment",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q18",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p017_par_000",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 17,
+      "section": "deployment",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q18",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p010_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 10,
+      "section": "architecture",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q19",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p033_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 33,
+      "section": "compliance",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q19",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p031_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 31,
+      "section": "compliance",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q19",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p032_par_001",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 32,
+      "section": "compliance",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q20",
+      "rank": 1,
+      "chunk_id": "cloud_handbook_v2_p027_par_000",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 27,
+      "section": "operations",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q20",
+      "rank": 2,
+      "chunk_id": "cloud_handbook_v2_p026_par_000",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 26,
+      "section": "operations",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q20",
+      "rank": 3,
+      "chunk_id": "cloud_handbook_v2_p024_par_000",
+      "source": "data/cloud_handbook_v2.pdf",
+      "page": 24,
+      "section": "operations",
+      "metadata_complete_and_accurate": true,
+      "filter_compliant": true
+    }
+  ],
+  "grounding_audit_test_5_queries": [
+    {
+      "strategy": "A",
+      "question_id": "Q16",
+      "question": "How many consecutive failed login attempts lock a developer account?",
+      "gold_page": 7,
+      "retrieved_pages": [
+        32,
+        18,
+        7
+      ],
+      "retrieved_sections": [
+        "compliance",
+        "deployment",
+        "security"
+      ],
+      "grounding_score": 1,
+      "reason": "Truy xuất đúng trang nguồn nhưng câu bằng chứng bị cắt cụt ở ranh giới chunk nên thiếu thông số/điều kiện."
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q17",
+      "question": "What is the target recovery point objective (RPO) for tier-1 transactional databases?",
+      "gold_page": 13,
+      "retrieved_pages": [
+        13,
+        11,
+        12
+      ],
+      "retrieved_sections": [
+        "architecture",
+        "architecture",
+        "architecture"
+      ],
+      "grounding_score": 1,
+      "reason": "Truy xuất đúng trang nguồn nhưng câu bằng chứng bị cắt cụt ở ranh giới chunk nên thiếu thông số/điều kiện."
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q18",
+      "question": "Under what exception can a hotfix bypass the staging soak period?",
+      "gold_page": 20,
+      "retrieved_pages": [
+        20,
+        17,
+        6
+      ],
+      "retrieved_sections": [
+        "deployment",
+        "deployment",
+        "security"
+      ],
+      "grounding_score": 1,
+      "reason": "Truy xuất đúng trang nguồn nhưng câu bằng chứng bị cắt cụt ở ranh giới chunk nên thiếu thông số/điều kiện."
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q19",
+      "question": "According to the compliance section, what is the mandatory retention period for system audit records?",
+      "gold_page": 33,
+      "retrieved_pages": [
+        26,
+        33,
+        27
+      ],
+      "retrieved_sections": [
+        "operations",
+        "compliance",
+        "operations"
+      ],
+      "grounding_score": 1,
+      "reason": "Truy xuất đúng trang nguồn nhưng câu bằng chứng bị cắt cụt ở ranh giới chunk nên thiếu thông số/điều kiện."
+    },
+    {
+      "strategy": "A",
+      "question_id": "Q20",
+      "question": "In the operations section, what is the default timeout threshold for background health jobs?",
+      "gold_page": 27,
+      "retrieved_pages": [
+        27,
+        6,
+        17
+      ],
+      "retrieved_sections": [
+        "operations",
+        "security",
+        "deployment"
+      ],
+      "grounding_score": 1,
+      "reason": "Truy xuất đúng trang nguồn nhưng câu bằng chứng bị cắt cụt ở ranh giới chunk nên thiếu thông số/điều kiện."
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q16",
+      "question": "How many consecutive failed login attempts lock a developer account?",
+      "gold_page": 7,
+      "retrieved_pages": [
+        7,
+        30,
+        28
+      ],
+      "retrieved_sections": [
+        "security",
+        "operations",
+        "operations"
+      ],
+      "grounding_score": 2,
+      "reason": "Top-3 chứa nguyên vẹn câu bằng chứng (kèm điều kiện/thông số) và đúng trang/nguồn để truy vết."
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q17",
+      "question": "What is the target recovery point objective (RPO) for tier-1 transactional databases?",
+      "gold_page": 13,
+      "retrieved_pages": [
+        13,
+        8,
+        9
+      ],
+      "retrieved_sections": [
+        "architecture",
+        "security",
+        "security"
+      ],
+      "grounding_score": 2,
+      "reason": "Top-3 chứa nguyên vẹn câu bằng chứng (kèm điều kiện/thông số) và đúng trang/nguồn để truy vết."
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q18",
+      "question": "Under what exception can a hotfix bypass the staging soak period?",
+      "gold_page": 20,
+      "retrieved_pages": [
+        17,
+        17,
+        10
+      ],
+      "retrieved_sections": [
+        "deployment",
+        "deployment",
+        "architecture"
+      ],
+      "grounding_score": 0,
+      "reason": "Top-3 không chứa bằng chứng từ trang gold (bị nhiễu bởi các đoạn mẫu lặp lại giữa các chương)."
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q19",
+      "question": "According to the compliance section, what is the mandatory retention period for system audit records?",
+      "gold_page": 33,
+      "retrieved_pages": [
+        33,
+        31,
+        32
+      ],
+      "retrieved_sections": [
+        "compliance",
+        "compliance",
+        "compliance"
+      ],
+      "grounding_score": 1,
+      "reason": "Truy xuất đúng trang nguồn nhưng câu bằng chứng bị cắt cụt ở ranh giới chunk nên thiếu thông số/điều kiện."
+    },
+    {
+      "strategy": "B",
+      "question_id": "Q20",
+      "question": "In the operations section, what is the default timeout threshold for background health jobs?",
+      "gold_page": 27,
+      "retrieved_pages": [
+        27,
+        3,
+        6
+      ],
+      "retrieved_sections": [
+        "operations",
+        "security",
+        "security"
+      ],
+      "grounding_score": 2,
+      "reason": "Top-3 chứa nguyên vẹn câu bằng chứng (kèm điều kiện/thông số) và đúng trang/nguồn để truy vết."
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q16",
+      "question": "How many consecutive failed login attempts lock a developer account?",
+      "gold_page": 7,
+      "retrieved_pages": [
+        7,
+        30,
+        28
+      ],
+      "retrieved_sections": [
+        "security",
+        "operations",
+        "operations"
+      ],
+      "grounding_score": 2,
+      "reason": "Top-3 chứa nguyên vẹn câu bằng chứng (kèm điều kiện/thông số) và đúng trang/nguồn để truy vết."
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q17",
+      "question": "What is the target recovery point objective (RPO) for tier-1 transactional databases?",
+      "gold_page": 13,
+      "retrieved_pages": [
+        13,
+        8,
+        9
+      ],
+      "retrieved_sections": [
+        "architecture",
+        "security",
+        "security"
+      ],
+      "grounding_score": 2,
+      "reason": "Top-3 chứa nguyên vẹn câu bằng chứng (kèm điều kiện/thông số) và đúng trang/nguồn để truy vết."
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q18",
+      "question": "Under what exception can a hotfix bypass the staging soak period?",
+      "gold_page": 20,
+      "retrieved_pages": [
+        17,
+        17,
+        10
+      ],
+      "retrieved_sections": [
+        "deployment",
+        "deployment",
+        "architecture"
+      ],
+      "grounding_score": 0,
+      "reason": "Top-3 không chứa bằng chứng từ trang gold (bị nhiễu bởi các đoạn mẫu lặp lại giữa các chương)."
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q19",
+      "question": "According to the compliance section, what is the mandatory retention period for system audit records?",
+      "gold_page": 33,
+      "retrieved_pages": [
+        33,
+        31,
+        32
+      ],
+      "retrieved_sections": [
+        "compliance",
+        "compliance",
+        "compliance"
+      ],
+      "grounding_score": 1,
+      "reason": "Truy xuất đúng trang nguồn nhưng câu bằng chứng bị cắt cụt ở ranh giới chunk nên thiếu thông số/điều kiện."
+    },
+    {
+      "strategy": "C",
+      "question_id": "Q20",
+      "question": "In the operations section, what is the default timeout threshold for background health jobs?",
+      "gold_page": 27,
+      "retrieved_pages": [
+        27,
+        26,
+        24
+      ],
+      "retrieved_sections": [
+        "operations",
+        "operations",
+        "operations"
+      ],
+      "grounding_score": 2,
+      "reason": "Top-3 chứa nguyên vẹn câu bằng chứng (kèm điều kiện/thông số) và đúng trang/nguồn để truy vết."
+    }
+  ]
+}

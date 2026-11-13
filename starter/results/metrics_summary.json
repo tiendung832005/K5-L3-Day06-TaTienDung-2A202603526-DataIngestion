@@ -1,0 +1,114 @@
+{
+  "strategy_stats": {
+    "A": {
+      "strategy": "A",
+      "chunk_count": 72,
+      "total_chars": 33624,
+      "approx_tokens": 4425,
+      "min_len": 53,
+      "median_len": 499,
+      "max_len": 500,
+      "ingest_time_sec": 3.215,
+      "cost_usd": 0.0,
+      "reingest_idempotent": true
+    },
+    "B": {
+      "strategy": "B",
+      "chunk_count": 70,
+      "total_chars": 31745,
+      "approx_tokens": 4142,
+      "min_len": 275,
+      "median_len": 455,
+      "max_len": 598,
+      "ingest_time_sec": 2.76,
+      "cost_usd": 0.0,
+      "reingest_idempotent": true
+    },
+    "C": {
+      "strategy": "C",
+      "chunk_count": 70,
+      "total_chars": 31745,
+      "approx_tokens": 4142,
+      "min_len": 275,
+      "median_len": 455,
+      "max_len": 598,
+      "ingest_time_sec": 2.855,
+      "cost_usd": 0.0,
+      "reingest_idempotent": true
+    }
+  },
+  "metrics": {
+    "A__dev": {
+      "strategy": "A",
+      "split": "dev",
+      "total": 15,
+      "hit_at_1_count": 1,
+      "hit_at_3_count": 2,
+      "filter_questions": 3,
+      "filter_compliant_questions": 0,
+      "hit_at_1_fraction": "1/15 (6.7%)",
+      "evidence_hit_at_3_fraction": "2/15 (13.3%)",
+      "filter_compliance_fraction": "0/3 (0.0%)"
+    },
+    "A__test": {
+      "strategy": "A",
+      "split": "test",
+      "total": 5,
+      "hit_at_1_count": 0,
+      "hit_at_3_count": 0,
+      "filter_questions": 2,
+      "filter_compliant_questions": 0,
+      "hit_at_1_fraction": "0/5 (0.0%)",
+      "evidence_hit_at_3_fraction": "0/5 (0.0%)",
+      "filter_compliance_fraction": "0/2 (0.0%)"
+    },
+    "B__dev": {
+      "strategy": "B",
+      "split": "dev",
+      "total": 15,
+      "hit_at_1_count": 9,
+      "hit_at_3_count": 9,
+      "filter_questions": 3,
+      "filter_compliant_questions": 1,
+      "hit_at_1_fraction": "9/15 (60.0%)",
+      "evidence_hit_at_3_fraction": "9/15 (60.0%)",
+      "filter_compliance_fraction": "1/3 (33.3%)"
+    },
+    "B__test": {
+      "strategy": "B",
+      "split": "test",
+      "total": 5,
+      "hit_at_1_count": 3,
+      "hit_at_3_count": 3,
+      "filter_questions": 2,
+      "filter_compliant_questions": 1,
+      "hit_at_1_fraction": "3/5 (60.0%)",
+      "evidence_hit_at_3_fraction": "3/5 (60.0%)",
+      "filter_compliance_fraction": "1/2 (50.0%)"
+    },
+    "C__dev": {
+      "strategy": "C",
+      "split": "dev",
+      "total": 15,
+      "hit_at_1_count": 9,
+      "hit_at_3_count": 9,
+      "filter_questions": 3,
+      "filter_compliant_questions": 3,
+      "hit_at_1_fraction": "9/15 (60.0%)",
+      "evidence_hit_at_3_fraction": "9/15 (60.0%)",
+      "filter_compliance_fraction": "3/3 (100.0%)"
+    },
+    "C__test": {
+      "strategy": "C",
+      "split": "test",
+      "total": 5,
+      "hit_at_1_count": 3,
+      "hit_at_3_count": 3,
+      "filter_questions": 2,
+      "filter_compliant_questions": 2,
+      "hit_at_1_fraction": "3/5 (60.0%)",
+      "evidence_hit_at_3_fraction": "3/5 (60.0%)",
+      "filter_compliance_fraction": "2/2 (100.0%)"
+    }
+  }
+}

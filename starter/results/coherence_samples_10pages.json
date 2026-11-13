@@ -1,0 +1,212 @@
+[
+  {
+    "page_id": "cloud_handbook_v2_p003",
+    "strategy": "A",
+    "chunk_id": "cloud_handbook_v2_p003_fix_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #01 (Physical Page 3) [SECURITY] Module 01 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q01): Access tokens expire strictly after 45 minutes, except for automated batch w",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #01 (Physical Page 3) [SECURITY] Module 01 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p003",
+    "strategy": "B",
+    "chunk_id": "cloud_handbook_v2_p003_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #01 (Physical Page 3) [SECURITY] Module 01 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q01): Access tokens expire strictly after 45 minutes, except for automated batch workers which may request a 120-minute lease.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #01 (Physical Page 3) [SECURITY] Module 01 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p003",
+    "strategy": "C",
+    "chunk_id": "cloud_handbook_v2_p003_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #01 (Physical Page 3) [SECURITY] Module 01 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q01): Access tokens expire strictly after 45 minutes, except for automated batch workers which may request a 120-minute lease.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #01 (Physical Page 3) [SECURITY] Module 01 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p004",
+    "strategy": "A",
+    "chunk_id": "cloud_handbook_v2_p004_fix_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #02 (Physical Page 4) [SECURITY] Module 02 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q02): All master key material in the vault must undergo automatic cryptographic ro",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #02 (Physical Page 4) [SECURITY] Module 02 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p004",
+    "strategy": "B",
+    "chunk_id": "cloud_handbook_v2_p004_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #02 (Physical Page 4) [SECURITY] Module 02 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q02): All master key material in the vault must undergo automatic cryptographic rotation every 90 calendar days.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #02 (Physical Page 4) [SECURITY] Module 02 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p004",
+    "strategy": "C",
+    "chunk_id": "cloud_handbook_v2_p004_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #02 (Physical Page 4) [SECURITY] Module 02 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q02): All master key material in the vault must undergo automatic cryptographic rotation every 90 calendar days.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #02 (Physical Page 4) [SECURITY] Module 02 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p005",
+    "strategy": "A",
+    "chunk_id": "cloud_handbook_v2_p005_fix_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #03 (Physical Page 5) [SECURITY] Module 03 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q03): Direct SSH root login is strictly prohibited on all bastion nodes unless bre",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #03 (Physical Page 5) [SECURITY] Module 03 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p005",
+    "strategy": "B",
+    "chunk_id": "cloud_handbook_v2_p005_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #03 (Physical Page 5) [SECURITY] Module 03 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q03): Direct SSH root login is strictly prohibited on all bastion nodes unless break-glass emergency mode is activated by two security officers.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #03 (Physical Page 5) [SECURITY] Module 03 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p005",
+    "strategy": "C",
+    "chunk_id": "cloud_handbook_v2_p005_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #03 (Physical Page 5) [SECURITY] Module 03 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q03): Direct SSH root login is strictly prohibited on all bastion nodes unless break-glass emergency mode is activated by two security officers.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #03 (Physical Page 5) [SECURITY] Module 03 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p006",
+    "strategy": "A",
+    "chunk_id": "cloud_handbook_v2_p006_fix_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #04 (Physical Page 6) [SECURITY] Module 04 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q04): In the security gateway layer, the default request timeout threshold is conf",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #04 (Physical Page 6) [SECURITY] Module 04 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p006",
+    "strategy": "B",
+    "chunk_id": "cloud_handbook_v2_p006_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #04 (Physical Page 6) [SECURITY] Module 04 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q04): In the security gateway layer, the default request timeout threshold is configured to 12 seconds per upstream call.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #04 (Physical Page 6) [SECURITY] Module 04 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p006",
+    "strategy": "C",
+    "chunk_id": "cloud_handbook_v2_p006_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #04 (Physical Page 6) [SECURITY] Module 04 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q04): In the security gateway layer, the default request timeout threshold is configured to 12 seconds per upstream call.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #04 (Physical Page 6) [SECURITY] Module 04 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p007",
+    "strategy": "A",
+    "chunk_id": "cloud_handbook_v2_p007_fix_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #05 (Physical Page 7) [SECURITY] Module 05 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q16): A developer account is locked for 30 minutes after 6 consecutive failed mult",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #05 (Physical Page 7) [SECURITY] Module 05 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p007",
+    "strategy": "B",
+    "chunk_id": "cloud_handbook_v2_p007_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #05 (Physical Page 7) [SECURITY] Module 05 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q16): A developer account is locked for 30 minutes after 6 consecutive failed multi-factor authentication attempts.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #05 (Physical Page 7) [SECURITY] Module 05 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p007",
+    "strategy": "C",
+    "chunk_id": "cloud_handbook_v2_p007_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #05 (Physical Page 7) [SECURITY] Module 05 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q16): A developer account is locked for 30 minutes after 6 consecutive failed multi-factor authentication attempts.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #05 (Physical Page 7) [SECURITY] Module 05 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p008",
+    "strategy": "A",
+    "chunk_id": "cloud_handbook_v2_p008_fix_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #06 (Physical Page 8) [SECURITY] Module 06 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Standard Guideline 06: Services deployed within the security domain must export Prometheus metrics on po",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #06 (Physical Page 8) [SECURITY] Module 06 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p008",
+    "strategy": "B",
+    "chunk_id": "cloud_handbook_v2_p008_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #06 (Physical Page 8) [SECURITY] Module 06 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Standard Guideline 06: Services deployed within the security domain must export Prometheus metrics on port 9090 every 15 seconds and maintain structured JSON logs with trace_id correlation.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #06 (Physical Page 8) [SECURITY] Module 06 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p008",
+    "strategy": "C",
+    "chunk_id": "cloud_handbook_v2_p008_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #06 (Physical Page 8) [SECURITY] Module 06 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Standard Guideline 06: Services deployed within the security domain must export Prometheus metrics on port 9090 every 15 seconds and maintain structured JSON logs with trace_id correlation.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #06 (Physical Page 8) [SECURITY] Module 06 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p009",
+    "strategy": "A",
+    "chunk_id": "cloud_handbook_v2_p009_fix_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #07 (Physical Page 9) [SECURITY] Module 07 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Standard Guideline 07: Services deployed within the security domain must export Prometheus metrics on po",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #07 (Physical Page 9) [SECURITY] Module 07 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p009",
+    "strategy": "B",
+    "chunk_id": "cloud_handbook_v2_p009_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #07 (Physical Page 9) [SECURITY] Module 07 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Standard Guideline 07: Services deployed within the security domain must export Prometheus metrics on port 9090 every 15 seconds and maintain structured JSON logs with trace_id correlation.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #07 (Physical Page 9) [SECURITY] Module 07 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p009",
+    "strategy": "C",
+    "chunk_id": "cloud_handbook_v2_p009_par_000",
+    "chunk_text": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #07 (Physical Page 9) [SECURITY] Module 07 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Standard Guideline 07: Services deployed within the security domain must export Prometheus metrics on port 9090 every 15 seconds and maintain structured JSON logs with trace_id correlation.",
+    "anchor_preview": "Section: security | Cloud Engineering Handbook v2.0 | Useful Unit #07 (Physical Page 9) [SECURITY] Module 07 establishes"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p010",
+    "strategy": "A",
+    "chunk_id": "cloud_handbook_v2_p010_fix_000",
+    "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #08 (Physical Page 10) [ARCHITECTURE] Module 08 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q05): Messages published to the internal Kafka event bus must not exceed",
+    "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #08 (Physical Page 10) [ARCHITECTURE] Module 08 es"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p010",
+    "strategy": "B",
+    "chunk_id": "cloud_handbook_v2_p010_par_000",
+    "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #08 (Physical Page 10) [ARCHITECTURE] Module 08 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q05): Messages published to the internal Kafka event bus must not exceed 4 megabytes after compression.",
+    "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #08 (Physical Page 10) [ARCHITECTURE] Module 08 es"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p010",
+    "strategy": "C",
+    "chunk_id": "cloud_handbook_v2_p010_par_000",
+    "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #08 (Physical Page 10) [ARCHITECTURE] Module 08 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q05): Messages published to the internal Kafka event bus must not exceed 4 megabytes after compression.",
+    "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #08 (Physical Page 10) [ARCHITECTURE] Module 08 es"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p011",
+    "strategy": "A",
+    "chunk_id": "cloud_handbook_v2_p011_fix_000",
+    "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #09 (Physical Page 11) [ARCHITECTURE] Module 09 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q06): Each primary PostgreSQL database shard is paired with 3 synchronous",
+    "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #09 (Physical Page 11) [ARCHITECTURE] Module 09 es"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p011",
+    "strategy": "B",
+    "chunk_id": "cloud_handbook_v2_p011_par_000",
+    "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #09 (Physical Page 11) [ARCHITECTURE] Module 09 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q06): Each primary PostgreSQL database shard is paired with 3 synchronous and asynchronous read replicas across availability zones.",
+    "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #09 (Physical Page 11) [ARCHITECTURE] Module 09 es"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p011",
+    "strategy": "C",
+    "chunk_id": "cloud_handbook_v2_p011_par_000",
+    "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #09 (Physical Page 11) [ARCHITECTURE] Module 09 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q06): Each primary PostgreSQL database shard is paired with 3 synchronous and asynchronous read replicas across availability zones.",
+    "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #09 (Physical Page 11) [ARCHITECTURE] Module 09 es"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p012",
+    "strategy": "A",
+    "chunk_id": "cloud_handbook_v2_p012_fix_000",
+    "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #10 (Physical Page 12) [ARCHITECTURE] Module 10 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q07): The API gateway serves responses from Redis cache by default, excep",
+    "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #10 (Physical Page 12) [ARCHITECTURE] Module 10 es"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p012",
+    "strategy": "B",
+    "chunk_id": "cloud_handbook_v2_p012_par_000",
+    "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #10 (Physical Page 12) [ARCHITECTURE] Module 10 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q07): The API gateway serves responses from Redis cache by default, except when the client header X-Bypass-Cache is signed by an internal service.",
+    "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #10 (Physical Page 12) [ARCHITECTURE] Module 10 es"
+  },
+  {
+    "page_id": "cloud_handbook_v2_p012",
+    "strategy": "C",
+    "chunk_id": "cloud_handbook_v2_p012_par_000",
+    "chunk_text": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #10 (Physical Page 12) [ARCHITECTURE] Module 10 establishes standardized operational and architectural procedures for distributed microservices running inside our production Kubernetes clusters. Engineers must adhere to the resource quotas, observability tags, and network policies defined in this chapter to ensure high availability. Policy Specification (Q07): The API gateway serves responses from Redis cache by default, except when the client header X-Bypass-Cache is signed by an internal service.",
+    "anchor_preview": "Section: architecture | Cloud Engineering Handbook v2.0 | Useful Unit #10 (Physical Page 12) [ARCHITECTURE] Module 10 es"
+  }
+]

@@ -1,0 +1,236 @@
+{
+  "benchmark_version": "1.0",
+  "split_policy": "Fixed before experimentation: 15 dev questions (Q01-Q15) and 5 test questions (Q16-Q20). Includes 5 metadata filter questions (3 dev, 2 test).",
+  "questions": [
+    {
+      "id": "Q01",
+      "split": "dev",
+      "question_type": "direct",
+      "question": "What is the maximum lifetime of an access token in the Cloud Platform?",
+      "expected_answer": "Access tokens expire strictly after 45 minutes, except for automated batch workers which may request a 120-minute lease.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 3,
+      "evidence_quote": "Access tokens expire strictly after 45 minutes, except for automated batch workers which may request a 120-minute lease.",
+      "filter": null
+    },
+    {
+      "id": "Q02",
+      "split": "dev",
+      "question_type": "paraphrase",
+      "question": "How often do master encryption keys need to be rotated?",
+      "expected_answer": "All master key material in the vault must undergo automatic cryptographic rotation every 90 calendar days.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 4,
+      "evidence_quote": "All master key material in the vault must undergo automatic cryptographic rotation every 90 calendar days.",
+      "filter": null
+    },
+    {
+      "id": "Q03",
+      "split": "dev",
+      "question_type": "conditional",
+      "question": "Under what condition is SSH root login permitted on bastion nodes?",
+      "expected_answer": "Direct SSH root login is strictly prohibited on all bastion nodes unless break-glass emergency mode is activated by two security officers.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 5,
+      "evidence_quote": "Direct SSH root login is strictly prohibited on all bastion nodes unless break-glass emergency mode is activated by two security officers.",
+      "filter": null
+    },
+    {
+      "id": "Q04",
+      "split": "dev",
+      "question_type": "filter",
+      "question": "According to the security section, what is the default timeout threshold for external gateway requests?",
+      "expected_answer": "In the security gateway layer, the default request timeout threshold is configured to 12 seconds per upstream call.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 6,
+      "evidence_quote": "In the security gateway layer, the default request timeout threshold is configured to 12 seconds per upstream call.",
+      "filter": {
+        "section": "security"
+      }
+    },
+    {
+      "id": "Q05",
+      "split": "dev",
+      "question_type": "direct",
+      "question": "What is the maximum payload size allowed on the internal Kafka event bus?",
+      "expected_answer": "Messages published to the internal Kafka event bus must not exceed 4 megabytes after compression.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 10,
+      "evidence_quote": "Messages published to the internal Kafka event bus must not exceed 4 megabytes after compression.",
+      "filter": null
+    },
+    {
+      "id": "Q06",
+      "split": "dev",
+      "question_type": "paraphrase",
+      "question": "How many read replicas are provisioned for each primary PostgreSQL shard?",
+      "expected_answer": "Each primary PostgreSQL database shard is paired with 3 synchronous and asynchronous read replicas across availability zones.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 11,
+      "evidence_quote": "Each primary PostgreSQL database shard is paired with 3 synchronous and asynchronous read replicas across availability zones.",
+      "filter": null
+    },
+    {
+      "id": "Q07",
+      "split": "dev",
+      "question_type": "conditional",
+      "question": "When does the API gateway bypass the Redis distributed cache?",
+      "expected_answer": "The API gateway serves responses from Redis cache by default, except when the client header X-Bypass-Cache is signed by an internal service.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 12,
+      "evidence_quote": "The API gateway serves responses from Redis cache by default, except when the client header X-Bypass-Cache is signed by an internal service.",
+      "filter": null
+    },
+    {
+      "id": "Q08",
+      "split": "dev",
+      "question_type": "filter",
+      "question": "In the deployment section, what is the default timeout threshold for health checks during rollout?",
+      "expected_answer": "During canary deployment rollouts, the default request timeout threshold for container readiness probes is 40 seconds.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 17,
+      "evidence_quote": "During canary deployment rollouts, the default request timeout threshold for container readiness probes is 40 seconds.",
+      "filter": {
+        "section": "deployment"
+      }
+    },
+    {
+      "id": "Q09",
+      "split": "dev",
+      "question_type": "direct",
+      "question": "What error percentage triggers an automatic rollback during a canary release?",
+      "expected_answer": "An automatic canary rollback is triggered immediately if the HTTP 5xx error rate exceeds 1.5 percent over a 5-minute window.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 18,
+      "evidence_quote": "An automatic canary rollback is triggered immediately if the HTTP 5xx error rate exceeds 1.5 percent over a 5-minute window.",
+      "filter": null
+    },
+    {
+      "id": "Q10",
+      "split": "dev",
+      "question_type": "paraphrase",
+      "question": "How long are deprecated container images kept in the registry before garbage collection?",
+      "expected_answer": "Deprecated Docker container images are retained in the private registry for 60 days prior to automated garbage collection.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 19,
+      "evidence_quote": "Deprecated Docker container images are retained in the private registry for 60 days prior to automated garbage collection.",
+      "filter": null
+    },
+    {
+      "id": "Q11",
+      "split": "dev",
+      "question_type": "direct",
+      "question": "What is the maximum acknowledgement time for a Severity-1 incident page?",
+      "expected_answer": "On-call engineers must acknowledge any Severity-1 pager alert within 10 minutes of dispatch.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 24,
+      "evidence_quote": "On-call engineers must acknowledge any Severity-1 pager alert within 10 minutes of dispatch.",
+      "filter": null
+    },
+    {
+      "id": "Q12",
+      "split": "dev",
+      "question_type": "conditional",
+      "question": "When are database schema migrations allowed during peak business hours?",
+      "expected_answer": "Production database schema migrations are blocked between 08:00 and 20:00 UTC unless the change is purely additive and non-locking.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 25,
+      "evidence_quote": "Production database schema migrations are blocked between 08:00 and 20:00 UTC unless the change is purely additive and non-locking.",
+      "filter": null
+    },
+    {
+      "id": "Q13",
+      "split": "dev",
+      "question_type": "filter",
+      "question": "Within the operations section, what is the retention period for system audit records?",
+      "expected_answer": "For operational telemetry and runtime debugging, system audit records are retained in hot storage for 180 days.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 26,
+      "evidence_quote": "For operational telemetry and runtime debugging, system audit records are retained in hot storage for 180 days.",
+      "filter": {
+        "section": "operations"
+      }
+    },
+    {
+      "id": "Q14",
+      "split": "dev",
+      "question_type": "direct",
+      "question": "How quickly must a confirmed personal data breach be reported to the regulator?",
+      "expected_answer": "Any confirmed personal data breach must be reported to the external supervisory authority within 72 hours of discovery.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 31,
+      "evidence_quote": "Any confirmed personal data breach must be reported to the external supervisory authority within 72 hours of discovery.",
+      "filter": null
+    },
+    {
+      "id": "Q15",
+      "split": "dev",
+      "question_type": "paraphrase",
+      "question": "How long does the system take to purge user records after an account deletion request?",
+      "expected_answer": "Upon receiving a verified right-to-erasure request, all personally identifiable user records are permanently purged within 14 days.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 32,
+      "evidence_quote": "Upon receiving a verified right-to-erasure request, all personally identifiable user records are permanently purged within 14 days.",
+      "filter": null
+    },
+    {
+      "id": "Q16",
+      "split": "test",
+      "question_type": "direct",
+      "question": "How many consecutive failed login attempts lock a developer account?",
+      "expected_answer": "A developer account is locked for 30 minutes after 6 consecutive failed multi-factor authentication attempts.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 7,
+      "evidence_quote": "A developer account is locked for 30 minutes after 6 consecutive failed multi-factor authentication attempts.",
+      "filter": null
+    },
+    {
+      "id": "Q17",
+      "split": "test",
+      "question_type": "paraphrase",
+      "question": "What is the target recovery point objective (RPO) for tier-1 transactional databases?",
+      "expected_answer": "Tier-1 transactional databases maintain continuous WAL shipping to guarantee a Recovery Point Objective (RPO) of under 30 seconds.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 13,
+      "evidence_quote": "Tier-1 transactional databases maintain continuous WAL shipping to guarantee a Recovery Point Objective (RPO) of under 30 seconds.",
+      "filter": null
+    },
+    {
+      "id": "Q18",
+      "split": "test",
+      "question_type": "conditional",
+      "question": "Under what exception can a hotfix bypass the staging soak period?",
+      "expected_answer": "Every release must complete a 24-hour staging soak period, except for zero-day security hotfixes approved by the VP of Engineering.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 20,
+      "evidence_quote": "Every release must complete a 24-hour staging soak period, except for zero-day security hotfixes approved by the VP of Engineering.",
+      "filter": null
+    },
+    {
+      "id": "Q19",
+      "split": "test",
+      "question_type": "filter",
+      "question": "According to the compliance section, what is the mandatory retention period for system audit records?",
+      "expected_answer": "To satisfy financial and statutory regulations, system audit records are archived in immutable cold storage for 7 years.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 33,
+      "evidence_quote": "To satisfy financial and statutory regulations, system audit records are archived in immutable cold storage for 7 years.",
+      "filter": {
+        "section": "compliance"
+      }
+    },
+    {
+      "id": "Q20",
+      "split": "test",
+      "question_type": "filter",
+      "question": "In the operations section, what is the default timeout threshold for background health jobs?",
+      "expected_answer": "In routine cluster operations, the default request timeout threshold for background maintenance jobs is 300 seconds.",
+      "gold_source_id": "cloud_handbook_v2",
+      "gold_page": 27,
+      "evidence_quote": "In routine cluster operations, the default request timeout threshold for background maintenance jobs is 300 seconds.",
+      "filter": {
+        "section": "operations"
+      }
+    }
+  ]
+}
